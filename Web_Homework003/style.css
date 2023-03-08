@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    background-color: #eee;
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+header>p {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.container-header {
+    width: 100%;
+    height: 630px;
+    margin: auto;
+    background-image: url("https://images.pexels.com/photos/1477356/pexels-photo-1477356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pri-container2 {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+ul {
+    display: flex;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-item a {
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav-item>a:hover {
+    text-decoration: underline;
+}
+
+.center-item {
+    color: aliceblue;
+    align-self: center;
+    text-align: center;
+}
+
+.center-item>p {
+    margin: 0;
+    margin-top: 10px;
+    color: rgb(232, 232, 239);
+    font-weight: 600;
+}
+
+#border {
+    background-color: whitesmoke;
+    color: rgb(3, 3, 146);
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.img-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.description>h2 {
+    text-align: center;
+}
+
+.description>p {
+    text-align: center;
+    padding: 0 10px;
+    color: #160c88;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    color: rgba(39, 39, 104, 0.895);
+}
+
+.text>h3 {
+    color: rgba(39, 39, 104, 0.895);
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.text-box {
+    text-align: center;
+    padding: 15px;
+}
+
+.img {
+    padding: 15px;
+}
+
+.container3 {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item-flex-icon {
+    color: rgba(39, 39, 104, 0.895);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.item-flex-icon>i {
+    font-size: 60px;
+}
+
+.item-flex-icon>h2,
+p {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.pri-section3 {
+    width: 70%;
+    margin: auto;
+}
+
+.section3 {
+    width: 100%;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.section2>.tex {
+    width: 400px;
+    align-self: center;
+}
+
+h2,
+h1,
+a {
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: rgba(39, 39, 104, 0.895);
+}
+
+button {
+    border: none;
+    color: whitesmoke;
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding: 7px 18px;
+    border-radius: 3px;
+}
+
+.photo-list>h1 {
+    text-align: center;
+}
+
+.images img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.images img:nth-of-type(6) {
+    width: 100%;
+}
+
+.images ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li>* {
+    flex-grow: 2;
+}
